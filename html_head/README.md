@@ -1,0 +1,1 @@
+This is the readme for html_head files. In these files I will work on html head related stuff.
