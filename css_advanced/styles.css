@@ -1,3 +1,35 @@
-.header {
-    background-image: url(pic_1.jpg);
+header {
+    background-image: url("images/pic_1.jpg");
+}
+
+p {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.navigation {
+    display: flex;
+    justify-content: end;
+    flex-flow: row-reverse wrap;
+    align-content: space-between;
+    color: white;
+}
+
+.get_schooled {
+    color: white;
+}
+
+.nav_pad {
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.profile {
+    border-radius: 100%;
+    max-width: 150px;
+    max-height: 237px;
+}
+
+.pros{
+    display: flex;
 }
