@@ -32,4 +32,15 @@ p {
 
 .pros{
     display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: center;
+    max-width: 1009px;
+    max-height: 237;
+}
+.splat {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
 }
