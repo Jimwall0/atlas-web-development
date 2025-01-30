@@ -1,0 +1,1 @@
+The goal for this project is to recreate a website from a figma file. I'll be working on css for the most part in these sets of project.
