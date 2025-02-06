@@ -70,6 +70,7 @@ header {
 }
 .dif{
     color:#C271FF;
+    font-weight: bold;
 }
 .top {
     margin: 10px;
@@ -128,4 +129,58 @@ header {
     display:flex;
     flex-flow:row nowrap;
     align-items: center;
+}
+.star{
+    width:15px;
+    height:15px;
+}
+.rating{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.video{
+    position:relative;
+}
+.play{
+    width:64px;
+    height:64px;
+    position:absolute;
+    left: 35%;
+    top: 15%;
+}
+.membership{
+    background-color: #071629;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+    height: 502px;
+}
+.membership h1{
+    font-size:32px;
+}
+.membership button{
+    background-color: #C271FF;
+    border-radius: 22px;
+    padding: 15px;
+    color: white;
+    width: 162px;
+    font-size: 14px;
+}
+.members{
+    display:flex;
+    flex-flow:row nowrap;
+}
+.members img{
+    width:44px;
+    height: 35px;
+}
+.members h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+.members p{
+    font-size: 14px;
 }
