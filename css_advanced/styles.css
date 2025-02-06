@@ -1,6 +1,5 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
-    color:white;
 }
 header {
     background-image: url("images/pic_1.jpg");
@@ -9,12 +8,29 @@ header {
     width: auto;
     height: 1093px;
 }
-
-p {
-    display: flex;
-    flex-flow: wrap;
+.quote {
+    background-color:#C271FF;
+    color: white;
+    height:392px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-content:center;
 }
-
+.quote div{
+    width: 943px;
+}
+.quote img{
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+}
+.quote p {
+    margin-left: 40px;
+}
+.bold{
+    font-weight:700;
+}
 .navigation {
     display: flex;
     flex-flow: row-reverse;
@@ -32,6 +48,7 @@ p {
     display:flex;
     flex-flow: column wrap;
     align-content: center;
+    color:white;
 }
 .splat h1 {
     font-weight: 700;
@@ -63,12 +80,13 @@ p {
     position: relative;
     top: 35px;
     left: 171px;
-
+    color:white;
 }
 .pro{
     display:flex;
     flex-flow: column wrap;
     align-items: center;
+    color:white;
 }
 .individuals{
     width: 1000px;
@@ -78,9 +96,36 @@ p {
 }
 .individuals div{
     width: 150px;
-    justify-content: center;
+    text-align: center;
 }
 .individuals img{
     width:150px;
     border-radius: 100%;
+}
+.tutorials h1{
+    font-weight:300;
+    size: 32px;
+    text-align: center;
+}
+.tutorials1{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+}
+.pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.clickbait{
+    width: 255px;
+}
+.p1{
+    color: #07162980;
+}
+.phil{
+    display:flex;
+    flex-flow:row nowrap;
+    align-items: center;
 }
